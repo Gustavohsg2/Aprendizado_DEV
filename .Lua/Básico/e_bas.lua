@@ -1,0 +1,8 @@
+print("Qual o valor da prestação?")
+local prest = io.read("*n")
+print("Qual a taxa de juros?")
+local taxa = io.read("*n")
+print("Qual o tempo de atraso? Em meses.")
+local temp = io.read("*n")
+local valor_prest = prest + (prest*(taxa/100)*temp)
+print("O valor da prestação é:", valor_prest)
