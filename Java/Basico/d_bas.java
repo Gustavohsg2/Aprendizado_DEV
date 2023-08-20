@@ -11,6 +11,7 @@ public class d_bas {
         int ved_med = scanner.nextInt();
         int dist = tem_gasto*ved_med;
         double litros = dist/12.0;
-        System.out.println("A distância percorrida foi:" + dist "A quantidade de litros gastos foi:" + litros);
+        System.out.println("A distância percorrida foi:" + dist );
+        System.out.println("A quantidade de litros gastos foi:" + litros);
     }
 }

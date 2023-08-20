@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "f_bas",
+            "request": "launch",
+            "mainClass": "Java.Basico.f_bas",
+            "projectName": "Aprendizado_DEV_e1ec6cee"
+        },
+        {
+            "type": "java",
+            "name": "e_bas",
+            "request": "launch",
+            "mainClass": "Java.Basico.e_bas",
+            "projectName": "Aprendizado_DEV_e1ec6cee"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
