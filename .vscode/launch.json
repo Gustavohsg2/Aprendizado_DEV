@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaFXExample",
+            "request": "launch",
+            "mainClass": "Java.Projetos.JavaFXExample",
+            "projectName": "Aprendizado_DEV_e1ec6cee"
+        },
+        {
+            "type": "java",
             "name": "f_bas",
             "request": "launch",
             "mainClass": "Java.Basico.f_bas",
