@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt('Qual seu nome?');
+        var n1 = Number.parseFloat(window.prompt('Digite um valor real'));
+        //n1.toLocateString('pt-BR', {style: 'currency', currency: 'BRL'}); // mostra no formato da moeda real com o símbolo na frente. COLOCADO DENTRO DO $
+        document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.`);
+        document.write(`Seu nome em maiusc ${nome.toUpperCase()} \n Oi ${n1.toFixed(2)}, em reais.`);
+    </script>
+    
+</body>
+</html>
