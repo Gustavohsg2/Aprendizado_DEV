@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body{
+            background-color: gold;
+        }
+        input#bnt{
+            background-color: darkturquoise;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Sistema de Multa</h1>
+    Digite o seu país:<input type="string" name="txtpais" id="txtpais"> 
+    <input type="button" value="Verificar" id="bnt" onclick="verifi()">
+    <p id="resu">Resultado</p>
+
+    <script>
+        function verifi(){
+            var verifi = document.getElementById('txtpais').value;
+            if(verifi == 'Brasil'){
+                document.getElementById('resu').innerText = 'Você é brasileiro!';
+            }else{
+                document.getElementById('resu').innerText = 'Você é gringo!';
+            }
+        }
+
+    </script>
+</body>
+</html>
