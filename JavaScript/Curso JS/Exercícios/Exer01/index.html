@@ -16,15 +16,33 @@
         <div>
             <h3 id="hor">Testando..</h3>
         </div>
-            <img src="img/manha.jpeg">
         <div>
-
-
+            <img id="imag" src="img/manha.jpeg">
         </div>
     </section>
     <footer>
         <p>&copy; gustavohsg4</p>
     </footer>
+
+    <script>
+        var data = new Date();
+        var horas = data.getHours();
+        var minu = data.getMinutes();
+        document.getElementById('hor').innerHTML = `Agora são ${horas}:${minu}`; 
+        if(horas >= 5 && horas <= 12){
+            document.body.style.backgroundColor = 'rgb(226, 220, 130)';           
+            document.getElementById('imag').src = 'img/manha.jpeg';
+        }else if((horas > 12 && minu >=1) && horas < 18){
+            document.body.style.backgroundColor = '#FFC18C';
+            document.getElementById('imag').src = 'img/tarde.jpeg';
+        }else if(horas >= 18 || horas < 5){
+            document.body.style.backgroundColor = '#193D4B';
+            document.getElementById('imag').src = 'img/noite.jpg';
+        }
+
+
+    </script>
+
 
 </body>
 </html>
