@@ -1,0 +1,33 @@
+section{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+div#check{
+    margin-top: 15px;
+}
+body{
+    background-color: rgb(35, 67, 211);
+}
+footer{
+    color: white;
+    text-align: center;
+}
+div#foto{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-top: 15px;
+}
