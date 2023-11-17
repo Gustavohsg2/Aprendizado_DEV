@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class h_bas {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+        }
 
         
     }

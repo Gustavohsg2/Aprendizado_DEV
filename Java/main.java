@@ -1,6 +1,9 @@
 package Java;
 public class main{
-    public static void main(String[] args) {
+    /**
+     * @param args
+     */
+    public static void main(final String[] args) {
         // Declaração de variáveis
         int numero = 10;
         String texto = "Olá, mundo!";
