@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color:  rgb(35, 67, 211);
+}
+section{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+}
+select{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 150px;
+}
