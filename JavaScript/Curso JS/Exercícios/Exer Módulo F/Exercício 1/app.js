@@ -45,3 +45,12 @@ function apagar() {
     p_med.innerText = '';
     sec.style.height = '300px';
 }
+
+// 1 - Fazer Curso de HTML e CSS
+// 2 - Estudar funções
+// 3 - Estudar objetos
+// 4 - Modularização
+// 5 - Estudar RegEx
+// 6 - Estudar JSON
+// 7 - Estudar AJAX
+// 8 - Estudar NodeJS/frameworks
