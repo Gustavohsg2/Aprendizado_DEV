@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body{
+            background: #61bd8c;
+
+        }
+        #conteudo-principal{
+            background: #FFFFFFFF;
+            padding: 10px;
+            height: 2500px;
+            width: 600px;
+            /*position: relative;*/
+            margin: 30px auto;
+            margin-top: 120px;
+        }
+        .caixa{
+            background: #1e6f44;
+            width: 100px;
+            height: 100px;
+            color: white;
+        }
+
+        #relative{
+            position: relative;
+            left: -30px; 
+            top: 0;
+            width: 660px;
+        }
+        #absolute{
+            position: absolute; /* Deixa de fazer parte do fluxo normal, está fora de um conteúdo ou da div*/
+            bottom: 0;
+            right: 30px;
+
+        }
+        #fixed{
+            position: fixed;  /* Fixado na tela do usuário acompanhando ele*/
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #000;
+        }
+    </style>    
+
+</head>
+<body>
+
+    <div id="conteudo-principal">
+        <h1>Posicionamento</h1>
+
+        <h4>Relative</h4>
+        <div class="caixa" id="relative">Relative</div>
+
+        <h4>Absolute</h4>
+        <div class="caixa" id="absolute">Absolute</div>
+
+        <h4>Fixed</h4>
+        <div class="caixa" id="fixed">Fixed</div>
+    </div>
+
+
+</body>
+</html>

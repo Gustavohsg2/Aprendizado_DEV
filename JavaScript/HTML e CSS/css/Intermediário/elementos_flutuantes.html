@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+
+    <style>
+
+        #resumo-noticia{
+            border: 1px solid gray;
+            width: 250px;
+            height: 300px;
+            float: left; /* Fluxo para ficar lado a lado*/
+            margin: 10px;
+        }
+        .clear{
+            clear: both; /* Limpar um fluxo que está flutuando*/
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="resumo-noticia">
+        <h2>Elementos Flutuantes 1</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            In dictum scelerisque nisi id lacinia. Fusce ultricies lacus nibh, 
+            in consectetur felis dictum eget. Praesent volutpat neque auctor lacus ultricies,
+             imperdiet suscipit nisl dictum. 
+
+        </p>
+    </div>
+
+    <div id="resumo-noticia">
+        <h2>Elementos Flutuantes 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            In dictum scelerisque nisi id lacinia. Fusce ultricies lacus nibh, 
+            in consectetur felis dictum eget. Praesent volutpat neque auctor lacus ultricies,
+             imperdiet suscipit nisl dictum. 
+
+        </p>
+    </div>
+
+    <!-- <div id="conteudo-secundario">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        In dictum scelerisque nisi id lacinia. Fusce ultricies lacus nibh, 
+        in consectetur felis dictum eget. Praesent volutpat neque auctor lacus ultricies,
+        imperdiet suscipit nisl dictum. 
+    </div> -->
+
+    <div class="clear">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        In dictum scelerisque nisi id lacinia. Fusce ultricies lacus nibh, 
+        in consectetur felis dictum eget. Praesent volutpat neque auctor lacus ultricies,
+        imperdiet suscipit nisl dictum. 
+    </div>
+    <div>Todos os direitos reservados</div>
+
+</body>
+</html>
