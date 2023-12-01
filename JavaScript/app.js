@@ -1,0 +1,3 @@
+
+
+//condição ? true : false
