@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <h1>Formulários</h1>
+    <h1>Formulários Udemy</h1>
 
     <form>
         Login: <br>
@@ -40,12 +40,78 @@
         </select>
 
         Observações: <br>
-        <textarea></textarea> 
+        <textarea name="obs"></textarea> 
         <br>
 
         <input type="button" value="Cadastrar" />
     </form>
 
 
+
+    <br><br><br><br>
+
+    <h1>Formulário Instituto</h1>
+
+    <!-- action é para onde os dados vão ser enviados, exemplo: recebe_form.php-->
+    <!-- method (Método de envio dos dados: get os dados são colocados na url) post = envia direto para o arquivo php -->
+    <!--
+        Parâmetros{
+            autocomplete
+            enctype (envio de arquivos)
+            name (nome)
+            novalidate ()
+
+        }
+
+
+    -->
+    <form action="" method="post" enctype="multipart/form-data"> 
+
+            <fieldset>
+                <legend>Dados pessoais:</legend>
+                Nome
+                <!-- 
+                Parâmetros{
+                    autocomplete
+                    autofocus
+                    disabled (desativa o input bloqueando a interação, fica com uma cor cinza)
+                    max ()
+                    min
+                    maxlength ( quantos carc pode escrever)
+                    name (nome)
+                    pattern (padrão de elementos que vai ser digitado)
+                    placeholder
+                    readonly (somente leitura)
+                    required (campo obrigatório)
+                    size (largura)
+                    type (tipo)
+                    value (valor dentro do input)
+                }
+                -->
+                Nome: <input type="text" name="nome" required><br>
+                Email: <input type="email" name="email" placeholder="Digite seu E-mail">
+                <br><br>
+                CPF: <input type="text" name="cpf" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" maxlength="14">
+                <br><br>
+                <input type="date" name="data">
+
+                <br><br><br>
+                <input type="range" name="faixa">
+                <br><br>
+                <input type="color" name="cor">
+                <!-- 000.000.000-00 -->
+
+                <input list="cursos" name="curso">
+                <datalist id="cursos">
+                    <option value="HTML">
+                    <option value="CSS">
+                </datalist>
+
+                <!-- Campo oculto -->
+                <input type="hidden" name="id" value="123">
+                <br><br>
+                <input type="file" name="arquivo">
+            </fieldset>
+        </form>
 </body>
 </html>

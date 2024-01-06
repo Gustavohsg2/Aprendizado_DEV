@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color:aquamarine;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="caixa" onMouseOut="saiu()" onMouseOver="entrando()" onMouseMove="sobre()">
+    </div>
+
+    <script>
+        var cubo = document.getElementById('caixa');
+        function saiu(){
+            cubo.style.background = 'red';
+        }
+        function sobre(){
+            cubo.style.background = 'aqua';
+        }
+        function entrando(){
+            cubo.style.background = 'gold';
+        }
+
+
+
+
+
+    </script>
+
+</body>
+</html>

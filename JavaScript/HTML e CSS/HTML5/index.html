@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .icon-option{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+            list-style-image: url(bolo.png);
+            list-style-position: inside;
+            list-style-type: circle;
+        }
+    </style>
 </head>
 <body>
     
@@ -31,6 +41,18 @@
         <li>Dormir</li>
     </ol>
 
+    <!-- Lista de definição-->
+
+    <dl>
+        <dt>Cafe</dt>
+            <!-- Descrição -->
+            <dd>Preto</dd>
+            <dd>Quente</dd>
+        <dt>Leite</dt>
+            <!-- Descrição -->
+            <dd>Leite</dd>
+    </dl>
+
     <a href="https://www.instagram.com/"> <!-- Links -->
         Clique aqui
     </a> 
@@ -39,15 +61,23 @@
 
     <h2>Tabelas</h2>
 
-    <table border="1" width="50%">
-        <tr>
+
+    <!-- 
+        Parâmetros{
+            colspan (Ocupar o espaço de x células)
+            rowspan (Ocupação de x células em linhas diferentes)
+        }
+    -->
+    <table border="1" width="50%"> <!-- Delimitação -->
+        <tr> <!-- Delimitação de linha -->
+            <!-- Th título de coluna-->
             <th>Código</th> <!-- Pode colocar <img> dentro de um <td> -->
             <th>Produto</th>
             <th>Preço</th>
             <!-- <tr> é a linha da tabela, <td> é célula e <th> célula em formato de título-->
         </tr>
         <tr>
-            <td>0000000130</td>
+            <td>0000000130</td> <!-- Célula -->
             <td>Notebook</td>
             <td>R$ 1200</td>
         </tr>
@@ -65,6 +95,26 @@
         </tr>
     </table>
 
+
+    <details>
+        <summary>HTML</summary>
+            Esta é uma funcionalidade nova.
+    
+    </details>
+
+    <meter min="0" max="100" low="40" high="90" optimum="100" value="91"></meter>
+
+    <progress ></progress>
+
+
+
+    <table>
+        <ul class="icon-option">
+            <li>Pudins: Pudim da Mãe</li>
+            <li>Sorvetes</li>
+            <li>Docinhos de Festa</li>
+        </ul>
+    </table>
 
 </body>
 </html>
