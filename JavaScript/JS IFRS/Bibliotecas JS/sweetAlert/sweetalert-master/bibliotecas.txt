@@ -1,0 +1,16 @@
+http://t4t5.github.io/sweetalert/
+
+http://yahoo.github.io/gifshot/demo.html
+
+
+http://mathjs.org/
+
+http://www.dropzonejs.com/
+
+http://stickerjs.cmiscm.com/
+
+
+http://formatjs.io/
+
+http://momentjs.com/
+http://yuilibrary.com/yui/docs/recordset/recordset-sort.html

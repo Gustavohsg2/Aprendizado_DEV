@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>SweetAlert</title>
+
+  <link rel="stylesheet" href="example/example.css">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+  <!-- This is what you need -->
+  <script src="dist/sweetalert-dev.js"></script>
+  <link rel="stylesheet" href="dist/sweetalert.css">
+  <!--.......................-->
+
+</head>
+
+<body>
+
+<h1>Alerta Sweet</h1>
+
+<div class="showcase normal">
+	<h4>Alerta normal</h4>
+	<button>Mostra mensagem de erro</button>
+	<div class="vs-icon"></div>
+</div>
+
+<div class="showcase sweet">
+	<h4>Alerta Sweet</h4>
+	<button>Mostra mensagem de erro</button>
+
+</div>
+
+<script>
+
+document.querySelector('.showcase.normal button').onclick = function(){
+	alert("Oops... Exemplo de mensagem de erro!");
+};
+
+document.querySelector('.showcase.sweet button').onclick = function(){
+	swal("Oops...", "Exemplo de mensagem de erro!", "error");
+};
+
+</script>
+
+
+
+</body>
+
+</html>
