@@ -1,0 +1,14 @@
+.caixa{
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 0.2vw solid #ccc;
+    margin: auto;
+    height: 50%;
+    width: 30%;
+    margin-top: 100px;
+        .logo{
+            width: 40%;
+            height: 40%;
+        }
+}

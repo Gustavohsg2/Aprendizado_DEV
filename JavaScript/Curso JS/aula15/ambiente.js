@@ -1,8 +1,8 @@
-let num = [5, 8, 2, 9, 3];
+let num = [5, 16, 2, 9, 3];
 
 console.log(num);
 
-num.push(7) // Coloca na última posição do vetor
+//num.push(7) // Coloca na última posição do vetor
 console.log(num.length) // Mostra o tamanho do array;
 num.sort() // Coloca em ordem crescente
 
@@ -20,4 +20,7 @@ for(pos in num){
 let posi = num.indexOf(9);
 
 console.log(posi);
+
+
+
 
