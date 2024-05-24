@@ -1,0 +1,27 @@
+.header_nav{
+    height: 400px;
+    background-image: url("img/uni.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+article {
+    width: 18rem;
+}
+
+a:hover{
+    transition: 0.4s;
+    color: aquamarine;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.box_redes a:hover{
+    color:aqua;
+    transition: 0.2s;
+}
